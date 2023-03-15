@@ -1,0 +1,210 @@
+div.headerdiv {
+    height: 150px;
+    background-color: fff5EC;
+    display: flex;
+    text-decoration-color: black;
+    font-family: serif;
+    padding-left: 135px;
+}
+div.right_header {
+
+  margin: 45;
+  padding-left: 2040;
+  position:absolute;
+}
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    display:inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-decoration: black;
+    background-color: white;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    text-decoration: black;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: none;
+    padding: 10px;
+    border:black;
+    margin-top: 8px;
+    margin-right: 50px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display:inline-flexbox;
+      text-align: left;
+      width: 100%;
+      margin: 10;
+      padding: 14px;
+    }
+
+  }
+div.thisweek {
+    height: 770px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 140px;
+    font-size: large;
+}
+p {
+    text-align: center;
+}
+div.div1 {
+    text-align: center;
+}
+div.galleries {
+  display: flex;
+  justify-content: center;
+}
+div.galleries1 {
+  display: flex;
+  justify-content: center;
+}
+div.gallery {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.gallery:hover {
+  border: 1px solid #def;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 20px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: inline-start;
+  align-items: center;
+  width: 24.99999%;
+}
+
+.responsive2 {
+  padding: 0 6px;
+  float: inline-start;
+  align-items: center;
+  width: 37.5%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+      width:50%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+      width:100%;
+  }
+}
+
+.clearfix:after {
+  content: "header";
+  display: table;
+  clear: both;
+}
+div.footerdiv {
+  height: 200px;
+  background-color: fff5EC;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  text-decoration-color: black;
+  font-family: serif;
+  padding-left: 50px;
+}
+ /* Style all font awesome icons */
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+/* Set a specific color for each brand */
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+} 
+/* Instagram */
+.fa-instagram {
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+div.topnav {
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 20px;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 180px;
+}
+
+.topnav a:hover {
+  background-color: #fff5ec;
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
