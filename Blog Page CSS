@@ -9,7 +9,7 @@ div.headerdiv {
 div.right_header {
 
   margin: 45;
-  padding-left: 2040;
+  padding-left: 1040;
   position:absolute;
 }
   /* Style the links inside the navigation bar */
