@@ -2,11 +2,11 @@ body {
     background-color:#fff5ec;
 }
 
-.my-button { 
+.my-button-btn-block { 
     color: #f6bfff; 
 }
 
-.my-button {
+.my-button-btn-block {
     background-color: #6C757D;
     border: none;
     color: white;
@@ -18,45 +18,25 @@ body {
     cursor: pointer;
     border-radius: 25px;
     padding: 10px;
-    width: 25%;
+    width: 60%;
   }
 
-.my-button:hover {
+.my-button-btn-block:hover {
     background-color: #f6bfff;
     color: #6C757D;
     opacity: 1
     border radius: 25px
 }
 
-.my-button-footer { 
-    colour: #f6bfff; 
-}
-
-.my-button-footer {
-    background-color: #6C757D;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 25px;
-    padding: 10px;
-    width: 250px;
-  }
-
-.my-button-footer:hover {
-    background-color: #f6bfff;
-    color: #6C757D;
-    opacity: 1;
-    border radius: 25px;
-}
-
 h1 {
     padding: 2%;
     background-color: #ffcc99;
+    style="font-size:10vw"
+}
+
+h2 {
+  padding: 2%;
+  style="font-size:10vw"
 }
 
 footer {
@@ -90,12 +70,13 @@ select {
     background-color: #6c757d
   }
   
-select-selected {
+.select-selected {
     background-color: #6C757D;
+    color: #fff5ec;
   }
   
   /*style the arrow inside the select element:*/
-select-selected:after {
+.select-selected:after {
     position: absolute;
     content: "";
     top: 14px;
@@ -107,7 +88,7 @@ select-selected:after {
   }
   
   /*point the arrow upwards when the select box is open (active):*/
-select-selected.select-arrow-active:after {
+.select-selected.select-arrow-active:after {
     border-color: transparent transparent #fff transparent;
     top: 7px;
   }
@@ -125,7 +106,7 @@ select-selected.select-arrow-active:after {
   /*style items (options):*/
   .select-items {
     position: absolute;
-    background-color: DodgerBlue;
+    background-color: #f6bfff;
     top: 100%;
     left: 0;
     right: 0;
@@ -151,9 +132,50 @@ select-selected.select-arrow-active:after {
   th, td {
     text-align: left;
     padding: 8px;
-    width: 25%;
+    width: 100%;
   }
 
   img.icon {
-    width: 40px;
+    width: 100%;
   }
+
+  .star-rating{
+    color: #bebebe;
+    font-size:2em;
+}
+/*create the star*/
+.my-star::before{
+    content:"\002605";
+}
+/*remove the default style (italic) of the star*/
+.my-star{
+    font-style: unset !important;
+}
+/*set active star color*/
+.is-active{
+    color:#fb8900;
+}
+/*set color on hover*/
+.my-star:not(.is-active):hover{
+    color: #fb8900;
+}
+
+img.product {
+  width: 100%;
+}
+
+a:link {
+  color:#6C757D
+}
+
+a:visited {
+  color:#bebebe
+}
+
+a:hover {
+  color:#eb6bff
+}
+
+a:active {
+  color:#ef92fd
+}

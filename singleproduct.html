@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF=8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Team 5 Project - Single Product Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" type="text/css" href="jordan css.css"> 
 
       
@@ -52,7 +53,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                  <img src="keychain.png" alt="">
+                  <img src="keychain.png" alt="" class="product">
                 </div>
                 <div class="col">
                     <h2>£25.00</h2>
@@ -63,17 +64,16 @@
                         <span class="input-group-text" id="basic-addon1">Initial:</span>
                         <input type="text" class="form-control" placeholder="Choose the initial for your keychain" aria-label="Choose the initial for your keychain" aria-describedby="basic-addon1">
                       </div>
-                      <div class="btn-group">
-                        <button type="button" class="btn my-button dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="size">
-                          Choose your size
-                        </button>
+                      <div>
                         <form>
+                          <label for="size"Choose your size charm></label>
                           <select id="size">
-                            <option value="1" selected="selected"> Choose your size</option>
+                            <option value="1" selected="selected"> Choose your charm size</option>
                             <option value="2">Small</option>
                             <option value="3">Medium</option>
                             <option value="4">Large</option>
                           </select>
+                          <input type="submit" value="Buy now">
                         </form>
                       </div>
                       <div></div>
@@ -88,17 +88,29 @@
                           <li><a class="dropdown-item" href="music.jpg">Music note</a></li>
                         </ul>
                       </div>
-
+                      <div class="col-md-11 col-lg-10">
                       <p> </p>
-                      <button type="button" class="my-button">Buy now</button>
+                      <button type="button" class="my-button-btn-block">Buy now</button>
                       <p> </p>
-                      <button type="button" class="my-button">Add to cart</button>
+                      <button type="button" class="my-button-btn-block">Add to cart</button>
+                    </div>
                     </div>    
                 </div>
             </div>
         </div>
+        <div class="ratings">
+          <h2> Ratings </h2>
+            <p class="star-rating">
+              <i class="my-star star-1" data-star="1"></i>
+              <i class="my-star star-2" data-star="2"></i>
+              <i class="my-star star-3" data-star="3"></i>
+              <i class="my-star star-4" data-star="4"></i>
+              <i class="my-star star-5" data-star="5"></i>
+              <input type="number" readonly id="output">
+            </p>
+        </div>
         <footer>
-          <table style="width:100%">
+          <table class="table" style="width:100%">
             <tr>
               <th scope="col">Shop</th>
               <th scope="col">Sell</th>
@@ -109,8 +121,8 @@
               <td>Gift cards</td>
               <td>Sell on our website</td>
               <td>Our story</td>
-              <td>
-                <button class="my-button-footer">Download our app!</button>
+              <td colspan="4">
+                <a href = "mailto: xxx@fakeemail.org">Email us!</a>
               </td>
             </tr>
             <tr>
