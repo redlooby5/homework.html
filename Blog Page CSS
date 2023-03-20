@@ -207,4 +207,72 @@ a:link {
   text-decoration: none;
 }
 
+.my-button-footer { 
+  color: #f6bfff; 
+}
+
+.my-button-footer {
+  background-color: #6C757D;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 10px;
+  width: 250px;
+}
+
+.my-button-footer:hover {
+  background-color: #f6bfff;
+  color: #6C757D;
+  opacity: 1;
+  border-radius: 25px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  width: 25%;
+}
+
+img.icon {
+  width: 40px;
+}
+.footerdiv {
+background-color: #ffbc74; 
+}
+
+.my-button {
+    background-color: #6C757D;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 10px;
+    width: 25%;
+  }
+
+.my-button:hover {
+    background-color: #f6bfff;
+    color: #6C757D;
+    opacity: 1
+    border-radius 25px;
+}
+
 
